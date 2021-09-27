@@ -10,6 +10,16 @@ public class UniversityEmployee extends Person {
 
     }
 
+    public void startStudyYear(double giventDate){
+        if (giventDate == 1.10){
+            System.out.println("Rok akademicki własnie sie zaczyna");
+        } else if (giventDate >= 1.06 && giventDate <= 30.09){
+            System.out.println("WAKACJE");
+        } else {
+            System.out.println("Rok akademicki w pełni");
+        }
+    }
+
     public void goToWork(){
         System.out.println("You have to work till the day you die");
     }

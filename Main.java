@@ -48,6 +48,7 @@ public class Main {
         System.out.println(deansOfficeLady.getResponsibilities());
         System.out.println(deansOfficeLady.getWages());
         deansOfficeLady.goToWork();
+        deansOfficeLady.startStudyYear(1.07);
 
         System.out.println("Pan profesor");
 
@@ -65,6 +66,7 @@ public class Main {
         System.out.println(panProfesor.getWages());
         System.out.println(panProfesor.getGrade());
         System.out.println(panProfesor.payTaxes());
+        panProfesor.startStudyYear(1.10);
 
 
 
